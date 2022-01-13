@@ -212,15 +212,16 @@ section {
           bottom: 28px;
           position: absolute;
           span {
-            padding: 4px 40px 4px 5px;
             font-size: 16px;
             font-weight: 400;
+            text-transform: uppercase;
+            padding: 4px 40px 4px 5px;
           }
         }
         .name-tag-news {
           span {
             color: #000000;
-            background: #81e9e6;
+            background: #fefcbf;
           }
         }
         .name-tag-case {
@@ -232,7 +233,7 @@ section {
         .name-tag-product {
           span {
             color: #000000;
-            background: #fefcbf;
+            background: #81e9e6;
           }
         }
       }
@@ -947,6 +948,9 @@ section {
   #navbar .container .nav-menu-left ul li a,
   #navbar .container .nav-menu-right ul li a {
     font-size: 14px;
+  }
+  #blog-items .container .blog-item h4 {
+    font-size: 22px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1920px) {
