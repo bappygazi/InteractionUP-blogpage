@@ -330,6 +330,20 @@ section {
   margin-left: 5px;
 }
 
+#blog-items .container .loading-btn {
+  padding-top: 60px;
+  text-align: center;
+}
+
+#blog-items .container .loading-btn a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 48px;
+  border-radius: 30px;
+  background-color: #5337c8;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
